@@ -12,4 +12,4 @@ DB_HOST=[host of database]<br />
 TEST_DB_NAME=[name of test database, for rspec]<br />
 NATIIONAL_WEATHER_SERVICE_URI= "https://api.weather.gov"<br />
 GEOCODING_SERVICE_URI=https://geocoding.geo.census.gov/geocoder/locations/address<br />
-REDIS_SERVER_URL=[Redis server, i.e. redis://localhost:6379/0/cache]<br />
+REDIS_SERVER_URL=[Redis server URL, i.e. redis://localhost:6379/0/cache]<br />
