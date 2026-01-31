@@ -1,0 +1,15 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @address %>
+
+<% if @forecasts.present? %>
+  <%= render 'forecasts' %>
+<% end %>
+
+<div>
+  <br />  
+  <%= link_to "Edit this address", edit_address_path(@address) %> |
+  <%= link_to "Back to addresses", addresses_path %>
+  <br />
+  <%= button_to "Delete", @address, method: :delete, class: 'btn btn-sm btn-danger', data: {turbo_methhod: :delete, turbo_confirm: 'Are you sure to delete this address?' } %>
+</div>
